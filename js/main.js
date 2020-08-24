@@ -8,8 +8,8 @@ $('#mobile-menu').meanmenu({
 });
 
 // One Page Nav
-var top_offset = $('.header-area').height() - 10;
-$('.main-menu nav ul').onePageNav({
+var top_offset = $('.headerArea').height() - 10;
+$('.Main-Menu nav ul').onePageNav({
 	currentClass: 'active',
 	scrollOffset: top_offset,
 });
